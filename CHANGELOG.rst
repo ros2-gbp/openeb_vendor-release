@@ -2,7 +2,7 @@
 Changelog for package openeb_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.3.0 (2024-05-30)
+1.0.0 (2024-05-30)
 ------------------
-* initial release on jazzy
+* initial commit for rolling
 * Contributors: Bernd Pfrommer
