@@ -1,0 +1,15 @@
+ros-iron-openeb-vendor (1.2.1-1jammy) jammy; urgency=high
+
+  * disable hdf5 plugin
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Tue, 04 Jun 2024 04:00:00 -0000
+
+ros-iron-openeb-vendor (1.2.0-1jammy) jammy; urgency=high
+
+  * initial release on iron
+  * Contributors: Bernd Pfrommer
+
+ -- Bernd Pfrommer <bernd.pfrommer@gmail.com>  Thu, 30 May 2024 04:00:00 -0000
+
+
