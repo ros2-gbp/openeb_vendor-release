@@ -1,3 +1,26 @@
+## openeb_vendor (rolling) - 1.0.2-1
+
+The packages in the `openeb_vendor` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling openeb_vendor` on `Sat, 15 Jun 2024 14:38:40 -0000`
+
+The `openeb_vendor` package was released.
+
+Version of package(s) in repository `openeb_vendor`:
+
+- upstream repository: https://github.com/ros-event-camera/openeb_vendor.git
+- release repository: https://github.com/ros2-gbp/openeb_vendor-release.git
+- rosdistro version: `1.0.1-1`
+- old version: `1.0.1-1`
+- new version: `1.0.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## openeb_vendor (iron) - 1.2.1-1
 
 The packages in the `openeb_vendor` repository were released into the `iron` distro by running `/usr/bin/bloom-release --rosdistro iron openeb_vendor` on `Tue, 04 Jun 2024 11:24:06 -0000`
