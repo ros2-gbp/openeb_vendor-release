@@ -20,13 +20,14 @@ project(openeb_vendor CXX)
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_vendor_package REQUIRED)
 
+ament_add_default_options()
+
 option(
   BUILD_SHARED_LIBS
   "Global flag to cause add_library() to create shared libraries if on. \
   If set to true, this will cause all libraries to be built shared \
   unless the library was explicitly added as a static library."
   ON)
-
 
 ament_vendor(openeb_vendor
   VCS_URL https://github.com/prophesee-ai/openeb.git
@@ -39,3 +40,7 @@ ament_vendor(openeb_vendor
   -DHDF5_DISABLED=ON
 )
 #  PATCHES patches
+
+ament_package(
+  CONFIG_EXTRAS "openeb_vendor-extras.cmake.in"
+)
