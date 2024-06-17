@@ -1,0 +1,12 @@
+Source: ros-humble-openeb-vendor
+Section: misc
+Priority: optional
+Maintainer: Bernd Pfrommer <bernd.pfrommer@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, curl, ffmpeg, git, hdf5-tools, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libcurl4-openssl-dev, libglew-dev, libglfw3-dev, libgtest-dev <!nocheck>, libhdf5-dev, libopencv-dev, libopenscenegraph-dev, libprotobuf-dev, libprotoc-dev, libswscale-dev, libusb-0.1-4, libusb-1.0-0, libusb-1.0-0-dev, libusb-dev, openscenegraph, pkg-config, protobuf-compiler, ros-humble-ament-cmake, ros-humble-ament-cmake-vendor-package, unzip, wget, ros-humble-ros-workspace
+Homepage: https://github.com/prophesee-ai/openeb
+Standards-Version: 3.9.2
+
+Package: ros-humble-openeb-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ffmpeg, libavcodec-dev, libavformat-dev, libavutil-dev, libboost-all-dev, libglew-dev, libglfw3-dev, libhdf5-dev, libopencv-dev, libopenscenegraph-dev, libprotobuf-dev, libprotoc-dev, libswscale-dev, libusb-0.1-4, libusb-1.0-0, libusb-1.0-0-dev, libusb-dev, openscenegraph, protobuf-compiler, ros-humble-ros-workspace
+Description: Wrapper around openeb
