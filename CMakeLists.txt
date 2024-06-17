@@ -20,7 +20,9 @@ project(openeb_vendor CXX)
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_vendor_package REQUIRED)
 
-ament_add_default_options()
+if (ament_cmake_vendor_package_VERSION VERSION_GREATER_EQUAL 2.0.0)
+  ament_add_default_options()
+endif()
 
 option(
   BUILD_SHARED_LIBS
