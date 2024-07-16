@@ -2,6 +2,12 @@
 Changelog for package openeb_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.0 (2024-07-16)
+------------------
+* upgrade to 4.6.2
+* also build on humble
+* Contributors: Bernd Pfrommer
+
 1.0.2 (2024-06-15)
 ------------------
 * added config extras
