@@ -20,7 +20,9 @@ project(openeb_vendor CXX)
 find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_vendor_package REQUIRED)
 
-ament_add_default_options()
+if (ament_cmake_vendor_package_VERSION VERSION_GREATER_EQUAL 2.0.0)
+  ament_add_default_options()
+endif()
 
 option(
   BUILD_SHARED_LIBS
@@ -31,7 +33,7 @@ option(
 
 ament_vendor(openeb_vendor
   VCS_URL https://github.com/prophesee-ai/openeb.git
-  VCS_VERSION 4.5.2
+  VCS_VERSION 4.6.2
   GLOBAL_HOOK
   CMAKE_ARGS
   -DCOMPILE_PLAYER:BOOL=OFF
