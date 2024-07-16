@@ -1,3 +1,26 @@
+## openeb_vendor (iron) - 2.0.0-1
+
+The packages in the `openeb_vendor` repository were released into the `iron` distro by running `/usr/bin/bloom-release --edit-track --track iron --rosdistro iron openeb_vendor` on `Tue, 16 Jul 2024 20:32:57 -0000`
+
+The `openeb_vendor` package was released.
+
+Version of package(s) in repository `openeb_vendor`:
+
+- upstream repository: https://github.com/ros-event-camera/openeb_vendor.git
+- release repository: https://github.com/ros2-gbp/openeb_vendor-release.git
+- rosdistro version: `1.2.2-1`
+- old version: `1.2.2-1`
+- new version: `2.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## openeb_vendor (jazzy) - 2.0.0-1
 
 The packages in the `openeb_vendor` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --edit-track --track jazzy --rosdistro jazzy openeb_vendor` on `Tue, 16 Jul 2024 20:30:52 -0000`
