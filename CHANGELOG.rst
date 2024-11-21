@@ -2,6 +2,11 @@
 Changelog for package openeb_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.0.1 (2024-10-10)
+------------------
+* added silkyev_cam plugin
+* Contributors: Bernd Pfrommer
+
 2.0.0 (2024-07-16)
 ------------------
 * upgrade to 4.6.2
