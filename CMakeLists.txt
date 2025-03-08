@@ -33,9 +33,9 @@ option(
 
 ament_vendor(openeb_vendor
   VCS_URL https://github.com/prophesee-ai/openeb.git
-  VCS_VERSION 4.6.2
+  VCS_VERSION 5.0.0
   GLOBAL_HOOK
-  PATCHES patches
+#  PATCHES patches
   CMAKE_ARGS
   -DCOMPILE_PLAYER:BOOL=OFF
   -DCOMPILE_PYTHON3_BINDINGS:BOOL=OFF
