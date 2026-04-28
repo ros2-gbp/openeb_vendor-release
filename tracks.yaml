@@ -130,4 +130,5 @@ tracks:
     ros_distro: rolling
     vcs_type: git
     vcs_uri: https://github.com/ros-event-camera/openeb_vendor.git
-    version: :{auto}
+    version: 2.0.2
+    version_saved: :{auto}
