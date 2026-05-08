@@ -32,8 +32,8 @@ option(
   ON)
 
 ament_vendor(openeb_vendor
-  VCS_URL https://github.com/prophesee-ai/openeb.git
-  VCS_VERSION 5.0.0
+  VCS_URL https://github.com/ros-event-camera/openeb.git
+  VCS_VERSION 5.2.0-gcc-15.2-ros2
   GLOBAL_HOOK
 #  PATCHES patches
   CMAKE_ARGS
