@@ -1,3 +1,26 @@
+## openeb_vendor (humble) - 2.0.3-1
+
+The packages in the `openeb_vendor` repository were released into the `humble` distro by running `/usr/bin/bloom-release --ros-distro humble openeb_vendor` on `Fri, 08 May 2026 16:16:41 -0000`
+
+The `openeb_vendor` package was released.
+
+Version of package(s) in repository `openeb_vendor`:
+
+- upstream repository: https://github.com/ros-event-camera/openeb_vendor.git
+- release repository: https://github.com/ros2-gbp/openeb_vendor-release.git
+- rosdistro version: `2.0.2-2`
+- old version: `2.0.2-2`
+- new version: `2.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## openeb_vendor (jazzy) - 2.0.2-2
 
 The packages in the `openeb_vendor` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --edit-track --track jazzy --rosdistro jazzy openeb_vendor` on `Mon, 10 Mar 2025 14:49:21 -0000`
